@@ -292,7 +292,7 @@ function AppDemo() {
                 <div
                   className={clsx(
                     'ml-auto text-sm tabular-nums tracking-tight',
-                    percentageChange >= 0 ? 'text-cyan-500' : 'text-gray-500'
+                    percentageChange >= 0 ? 'text-emerald-500' : 'text-gray-500'
                   )}
                 >
                   {`${
@@ -304,7 +304,7 @@ function AppDemo() {
             <div className="mt-6 flex gap-4 text-xs text-gray-500">
               <div>1D</div>
               <div>5D</div>
-              <div className="font-semibold text-cyan-600">1M</div>
+              <div className="font-semibold text-emerald-600">1M</div>
               <div>6M</div>
               <div>1Y</div>
               <div>5Y</div>
@@ -319,7 +319,7 @@ function AppDemo() {
                 onChangeActivePointIndex={setActivePointIndex}
               />
             </div>
-            <div className="mt-4 rounded-lg bg-cyan-500 py-2 px-4 text-center text-sm font-semibold text-white">
+            <div className="mt-4 rounded-lg bg-emerald-500 py-2 px-4 text-center text-sm font-semibold text-white">
               Trade
             </div>
             <div className="mt-3 divide-y divide-gray-100 text-sm">
@@ -350,27 +350,28 @@ export function Hero() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-             From <span className='font-bold px-1 text-white bg-[#1dbf73] '>PSD</span> to <span className='text-white px-1 bg-cyan-600 font-bold '>HTML</span>, we build stunning websites that work.
+             From  Figma to <span className='text-white px-1 bg-emerald-600 font-bold '>Vue / React</span>, we build stunning websites that work.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
                With expertise in   Vue  React, and Tailwind CSS    we create  beautiful and functional interfaces that engage users and drive conversions. Whether you need a custom web app, a responsive landing page, or a dynamic e-commerce site, we have the skills to bring your vision to life.
             </p>
-            <div className="mt-8 flex flex-wrap gap-x-4 gap-y-4">
+            <div className="mt-8 flex flex-wrap gap-x-2 gap-y-2">
               
               <Button
               
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                
-                className=" text-white px-8  bg-[#1cbf73]"
+                className=" text-white px-8  "
               >
                 Fiverr
                
               </Button>
               <Button
+              variant="outline"
               
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                
-                className=" text-white px-8  bg-[#14a800]"
+                className=" text-white px-8 "
               > 
                Upwork
               </Button>

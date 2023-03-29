@@ -5,55 +5,55 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'How do I know the tips are good?',
-      answer:
-        'Our whole business depends on our tips being good, so it’s in our best interest that they are. The results of our customers speak for themselves, just trust us.',
+    question: 'What web design services do you offer?',
+    answer:
+    'We offer a wide range of web design services, including custom website design, website redesign, responsive design, e-commerce design, and more. Contact us for a full list of our services.',
     },
     {
-      question: 'Isn’t this insider trading?',
-      answer:
-        'Yes exactly. But at scale! Historically you could only make insider trades with knowledge from your direct network. Pocket brings you insider trading tips from people you don’t even know.',
+    question: 'How do you ensure the website design meets my needs?',
+    answer:
+    'We have a thorough design process that includes multiple rounds of revisions and feedback from our clients. We work closely with you to ensure that your website design meets your specific needs and goals.',
     },
     {
-      question: 'But isn’t insider trading illegal?',
-      answer:
-        'Here’s the thing: you’re the one doing the insider trading, not us. We’re just giving you the tips and some tools to make trades. We’re not doing anything wrong here.',
+    question: 'What kind of websites do you design?',
+    answer:
+    'We design websites for all kinds of businesses and organizations, from small startups to large corporations. We can create websites for e-commerce, blogs, portfolios, and more.',
     },
-  ],
-  [
-    {
-      question: 'Do the people giving you tips realize what they are doing?',
+    ],
+    [
+      {
+      question: 'How long does it take to design a website?',
       answer:
-        'Again I would argue this isn’t really our responsibility. People make their own choices. If they don’t research the consequences that’s on them, not on us.',
-    },
-    {
-      question: 'Where is Pocket based?',
+      'The timeline for website design can vary depending on the complexity of the project and the clients specific needs. We provide estimates based on the scope of the project, and work diligently to meet our deadlines.',
+      },
+      {
+      question: 'What kind of design software do you use?',
       answer:
-        'Let’s just say it’s not somewhere where the SEC is going to find us.',
-    },
-    {
-      question: 'Is there any age limit to trading on Pocket?',
+      'We use a variety of design software, including Adobe Creative Suite, Figma, Sketch, and more. We choose the software that best fits the needs of the specific project and client.',
+      },
+      {
+      question: 'Do you provide website maintenance and support?',
       answer:
-        'For our free plan, the age limit is based on the minimum age to trade in your country of residence. Our VIP plan uses advanced transaction anonymization though, so you can use that plan even if you’re 9 years old. Or a dog.',
-    },
-  ],
-  [
-    {
-      question: 'How did you get this on the App Store?',
-      answer:
-        'Honestly we were surprised too, but eventually we found out that the app reviewer found the app so compelling they approved it just so they could use it themselves.',
-    },
-    {
-      question: 'How do I explain the money I withdraw from Pocket to the IRS?',
-      answer:
-        'This feels like one-hundred percent a you problem. Pocket is not responsible in any way for your tax returns.',
-    },
-    {
-      question: 'How do I become an insider?',
-      answer:
-        'Contact us with some details about your industry and the type of access you have to apply for an insider account. Once approved, we’ll send you a guide on collecting insider information without being detected at work.',
-    },
-  ],
+      'Yes, we offer ongoing website maintenance and support to ensure that your website is up-to-date and running smoothly. Contact us for more information about our maintenance packages.',
+      },
+      ],
+      [
+        {
+        question: 'What is your design philosophy?',
+        answer:
+        'Our design philosophy is centered around creating user-friendly and visually appealing websites that meet the specific needs of our clients. We strive to create designs that are both functional and aesthetically pleasing.',
+        },
+        {
+        question: 'What kind of design trends are you following?',
+        answer:
+        'We stay up-to-date on the latest design trends, including responsive design, mobile-first design, and minimalist design. However, we also believe that good design is timeless and should be tailored to the specific needs of the client.',
+        },
+        {
+        question: 'How do you ensure that the website design is SEO-friendly?',
+        answer:
+        'We have a team of SEO experts who work closely with our design team to ensure that the website design is optimized for search engines. We use best practices for on-page SEO, including optimized page titles, meta descriptions, and structured data.',
+        },
+        ],
 ]
 
 export function Faqs() {

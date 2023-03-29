@@ -8,61 +8,61 @@ import { Logomark } from '@/components/Logo'
 
 const plans = [
   {
-    name: 'Starter',
+    name: 'Starter / PSD to HTML',
     featured: false,
-    price: { Monthly: '$0', Annually: '$0' },
+    price: { Monthly: '$100', Annually: '$1000' },
     description:
-      'You’re new to investing but want to do it right. Get started for free.',
+      'You want hire 1 developer on monthly basis or Yearly, We got plan for you.',
     button: {
-      label: 'Get started for free',
+      label: 'Get a Quote',
       href: '/register',
     },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'One tip every day',
-      'Invest up to $1,500 each month',
+      'PSD to HTML',
+      'Design Modifications',
+      'Design Maintainance',
+      'Tips to make your design better',
     ],
     logomarkClassName: 'fill-gray-300',
   },
   {
-    name: 'Investor',
+    name: 'Vue.js / Nuxt Developer',
     featured: false,
-    price: { Monthly: '$7', Annually: '$70' },
+    price: { Monthly: '$300', Annually: '$1,800' },
     description:
-      'You’ve been investing for a while. Invest more and grow your wealth faster.',
+      'You want hire 1 Vue.js / Nuxt / Tailwind developer on monthly basis or Yearly, We got plan for you.',
     button: {
-      label: 'Subscribe',
+      label: 'Get a Quote',
       href: '/register',
     },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'One tip every hour',
-      'Invest up to $15,000 each month',
-      'Basic transaction anonymization',
+      'Figma to HTML / Tailwind',
+      'Vue.js and Nuxt JS ',
+      ' End-to-End Integration',
+      'Design Modification',
+      'Figma to Nuxt',
     ],
     logomarkClassName: 'fill-gray-500',
   },
   {
-    name: 'VIP',
+    name: 'React / Next Developer',
     featured: true,
-    price: { Monthly: '$199', Annually: '$1,990' },
+    price: { Monthly: '$400', Annually: '$2,400' },
     description:
       'You’ve got a huge amount of assets but it’s not enough. To the moon.',
     button: {
-      label: 'Subscribe',
+      label: 'Get a Quote',
       href: '/register',
     },
     features: [
-      'Commission-free trading',
-      'Multi-layered encryption',
-      'Real-time tip notifications',
-      'No investment limits',
-      'Advanced transaction anonymization',
-      'Automated tax-loss harvesting',
+      'Figma to HTML / Tailwind',
+      'React.js and Next JS ',
+      ' End-to-End Integration',
+      'Design Modification',
+      'Figma to Next',
+      'Future updates'
     ],
-    logomarkClassName: 'fill-cyan-500',
+    logomarkClassName: 'fill-emerald-500',
   },
 ]
 
@@ -169,7 +169,7 @@ function Plan({
               <CheckIcon
                 className={clsx(
                   'h-6 w-6 flex-none',
-                  featured ? 'text-white' : 'text-cyan-500'
+                  featured ? 'text-white' : 'text-emerald-500'
                 )}
               />
               <span className="ml-4">{feature}</span>
@@ -179,7 +179,7 @@ function Plan({
       </div>
       <Button
         href={button.href}
-        color={featured ? 'cyan' : 'gray'}
+        color={featured ? 'emerald' : 'gray'}
         className="mt-6"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
@@ -204,7 +204,7 @@ export function Pricing() {
             id="pricing-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
-            Flat pricing, no management fees.
+            Hire Designers / Developers
           </h2>
           <p className="mt-2 text-lg text-gray-600">
             Whether you’re one person trying to get ahead or a big firm trying
@@ -237,7 +237,7 @@ export function Pricing() {
             <div
               aria-hidden="true"
               className={clsx(
-                'pointer-events-none absolute inset-0 z-10 grid grid-cols-2 overflow-hidden rounded-lg bg-cyan-500 transition-all duration-300',
+                'pointer-events-none absolute inset-0 z-10 grid grid-cols-2 overflow-hidden rounded-lg bg-emerald-500 transition-all duration-300',
                 activePeriod === 'Monthly'
                   ? '[clip-path:inset(0_50%_0_0)]'
                   : '[clip-path:inset(0_0_0_calc(50%-1px))]'
