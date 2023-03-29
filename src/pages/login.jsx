@@ -9,22 +9,26 @@ export default function Login() {
   return (
     <>
       <Head>
-        <title>Sign In - Pocket</title>
+        <title>Quote - Indus</title>
       </Head>
       <AuthLayout
-        title="Sign in to account"
+        title="Ask us for anything / Price / Time"
         subtitle={
           <>
-            Don’t have an account?{' '}
-            <Link href="/register" className="text-emerald-600">
-              Sign up
-            </Link>{' '}
-            for a free trial.
+             
           </>
         }
       >
         <form>
           <div className="space-y-6">
+          <TextField
+              label="Name"
+              id="name"
+              name="name"
+              type="name"
+              autoComplete="name"
+              
+            />
             <TextField
               label="Email address"
               id="email"
@@ -34,16 +38,16 @@ export default function Login() {
               required
             />
             <TextField
-              label="Password"
-              id="password"
-              name="password"
-              type="password"
-              autoComplete="current-password"
+              label="Message"
+              id="message"
+              name="message"
+              type="message"
+              autoComplete="message"
               required
             />
           </div>
           <Button type="submit" color="emerald" className="mt-8 w-full">
-            Sign in to account
+            Get a Quote
           </Button>
         </form>
       </AuthLayout>

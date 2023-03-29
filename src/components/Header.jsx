@@ -48,7 +48,7 @@ function MobileNavLink({ children, ...props }) {
 export function Header() {
   return (
     <header>
-      <nav>
+      <nav className='shadow-sm'>
         <Container className="relative z-50 flex justify-between  h-16">
           <div className="relative z-10 flex items-center gap-16">
             <Link href="/" aria-label="Home">
@@ -112,10 +112,9 @@ export function Header() {
                             <MobileNavLink href="#faqs">FAQs</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="/login" variant="outline">
-                              Log in
-                            </Button>
-                            <Button href="#">Download the app</Button>
+                            <Button href="/login" >
+                              Get a Quote
+                            </Button> 
                           </div>
                         </Popover.Panel>
                       </>
@@ -124,12 +123,10 @@ export function Header() {
                 </>
               )}
             </Popover>
-            <Button href="/login" variant="outline" className="hidden lg:block">
-              Log in
+            <Button href="/login"  className="hidden lg:block">
+            Get a Quote
             </Button>
-            <Button href="#" className="hidden lg:block">
-              Download
-            </Button>
+            
           </div>
         </Container>
       </nav>
