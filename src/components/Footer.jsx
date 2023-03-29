@@ -46,11 +46,11 @@ export function Footer() {
               <p className="text-base font-semibold text-gray-900">
                 <Link href="#">
                   <span className="absolute inset-0 sm:rounded-2xl" />
-                  Download the app
+                  Get a Quote
                 </Link>
               </p>
               <p className="mt-1 text-sm text-gray-700">
-                Scan the QR code to download the app from the App Store.
+                Scan the QR code to open form.
               </p>
             </div>
           </div>
