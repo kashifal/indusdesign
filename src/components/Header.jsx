@@ -6,6 +6,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
+import Flyout from '@/components/Flyout';
 
 function MenuIcon(props) {
   return (
@@ -58,6 +59,7 @@ export function Header() {
             </Link>
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
+              <Flyout />
             </div>
           </div>
           <div className="flex items-center gap-6">
@@ -109,12 +111,15 @@ export function Header() {
                             <MobileNavLink href="#pricing">
                               Pricing
                             </MobileNavLink>
+                            
                             <MobileNavLink href="#faqs">FAQs</MobileNavLink>
+                            <Flyout />
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
                             <Button href="/login" >
                               Get a Quote
                             </Button> 
+                            
                           </div>
                         </Popover.Panel>
                       </>
@@ -126,6 +131,7 @@ export function Header() {
             <Button href="/login"  className="hidden lg:block">
             Get a Quote
             </Button>
+          
             
           </div>
         </Container>
