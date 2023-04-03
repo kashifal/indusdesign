@@ -59,7 +59,7 @@ export function Header() {
             </Link>
             <div className="hidden lg:flex lg:gap-10">
               <NavLinks />
-              <Flyout />
+            
             </div>
           </div>
           <div className="flex items-center gap-6">
@@ -112,8 +112,9 @@ export function Header() {
                               Pricing
                             </MobileNavLink>
                             
+                            
                             <MobileNavLink href="#faqs">FAQs</MobileNavLink>
-                            <Flyout />
+                       
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
                             <Button href="/login" >

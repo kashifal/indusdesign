@@ -11,34 +11,28 @@ import {
 } from '@heroicons/react/24/outline'
 
 const solutions = [
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
+  { name: 'Download Templates', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
   {
-    name: 'Integrations',
+    name: 'Careers',
     description: 'Connect with third-party tools and find out expectations',
     href: '#',
     icon: SquaresPlusIcon,
   },
   {
-    name: 'Engagement',
+    name: 'LinkedIn',
     description: 'Speak directly to your customers with our engagement tool',
     href: '#',
     icon: CursorArrowRaysIcon,
   },
-  { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
-  { name: 'Security', description: "Your customers' data will be safe and secure", href: '#', icon: FingerPrintIcon },
-  {
-    name: 'Reports',
-    description: 'Edit, manage and create newly informed decisions',
-    href: '#',
-    icon: DocumentChartBarIcon,
-  },
+  { name: 'Clients', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon }, 
+   
 ]
 
 export default function Example() {
   return (
     <Popover className="relative">
-      <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-        <span>Solutions</span>
+      <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-normal leading-6 text-gray-800">
+        <span>More</span>
         <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
       </Popover.Button>
 

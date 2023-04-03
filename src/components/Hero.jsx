@@ -270,8 +270,7 @@ function AppDemo() {
           <div className="flex gap-2">
             <div className="text-xs leading-6 text-gray-500">
               Trading Site Desing
-            </div>
-            <div className="text-sm text-gray-900">$CSS</div>
+            </div> 
             <svg viewBox="0 0 24 24" className="ml-auto h-6 w-6" fill="none">
               <path
                 d="M5 12a7 7 0 1 1 14 0 7 7 0 0 1-14 0ZM12 9v6M15 12H9"
@@ -284,22 +283,10 @@ function AppDemo() {
           </div>
           <div className="mt-3 border-t border-gray-200 pt-5">
             <div className="flex items-baseline gap-2">
-              <div className="text-2xl tabular-nums tracking-tight text-gray-900">
-                {activeValue.toFixed(2)}
-              </div>
-              <div className="text-sm text-gray-900">USD</div>
-              {percentageChange && (
-                <div
-                  className={clsx(
-                    'ml-auto text-sm tabular-nums tracking-tight',
-                    percentageChange >= 0 ? 'text-emerald-500' : 'text-gray-500'
-                  )}
-                >
-                  {`${
-                    percentageChange >= 0 ? '+' : ''
-                  }${percentageChange.toFixed(2)}%`}
-                </div>
-              )}
+              <div className="text-xl tabular-nums tracking-tight text-gray-900">
+               Perfect Frontend Team
+              </div> 
+              
             </div>
             <div className="mt-6 flex gap-4 text-xs text-gray-500">
               <div>1D</div>
@@ -320,20 +307,20 @@ function AppDemo() {
               />
             </div>
             <div className="mt-4 rounded-lg bg-emerald-500 py-2 px-4 text-center text-sm font-semibold text-white">
-              Trade
+              Hire us
             </div>
             <div className="mt-3 divide-y divide-gray-100 text-sm">
               <div className="flex justify-between py-1">
-                <div className="text-gray-500">Open</div>
-                <div className="font-medium text-gray-900">6,387.55</div>
+                <div className="text-gray-500">Developers</div>
+                <div className="font-medium text-gray-900">10</div>
               </div>
               <div className="flex justify-between py-1">
-                <div className="text-gray-500">Closed</div>
-                <div className="font-medium text-gray-900">6,487.09</div>
+                <div className="text-gray-500">Designers</div>
+                <div className="font-medium text-gray-900">12</div>
               </div>
               <div className="flex justify-between py-1">
-                <div className="text-gray-500">Low</div>
-                <div className="font-medium text-gray-900">6,322.01</div>
+                <div className="text-gray-500">UX</div>
+                <div className="font-medium text-gray-900">4</div>
               </div>
             </div>
           </div>

@@ -11,6 +11,8 @@ export function NavLinks() {
     ['Pricing', '#pricing'],
     ['FAQs', '#faqs'],
     ['Showcase', '#showcase'],
+    ['Download Templates', '#templates'],
+
   ].map(([label, href], index) => (
     <Link
       key={label}

@@ -2,6 +2,13 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import React, { useState } from 'react'
 import { ArrowUpRightIcon } from '@heroicons/react/20/solid'
+import { motion } from 'framer-motion'; // Import motion component from Framer Motion
+
+const footerVariant = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
+};
+
 function Showcase() {
   const [tab, setTab] = useState('all')
   const projects = [
@@ -141,6 +148,16 @@ function Showcase() {
           {tab === 'all' &&
             projects.map((project) => {
               return (
+                <motion.div
+                variants={footerVariant}
+                initial="hidden"
+                animate="visible"
+                transition={{
+                  ease: "linear",
+                  duration: 1,
+                  x: { duration: 1 }
+                }}
+              >
                 <div
                   key={project.id}
                   className="flex max-h-fit w-[360px] flex-col gap-3 rounded-3xl bg-gray-100 p-4"
@@ -157,11 +174,22 @@ function Showcase() {
                     </a>
                   </div>
                 </div>
+                </motion.div>
               )
             })}
           {tab === 'reactjs' &&
             reactProjects.map((project) => {
               return (
+                <motion.div
+                variants={footerVariant}
+                initial="hidden"
+                animate="visible"   
+                transition={{
+                  ease: "linear",
+                  duration: 1,
+                  x: { duration: 1 }
+                }}
+              >
                 <div
                   key={project.id}
                   className="flex max-h-fit w-[360px] flex-col gap-3 rounded-3xl bg-gray-100 p-4"
@@ -178,11 +206,22 @@ function Showcase() {
                     </a>
                   </div>
                 </div>
+                </motion.div>
               )
             })}
           {tab === 'vuejs' &&
             vueProjects.map((project) => {
               return (
+                <motion.div
+                variants={footerVariant}
+                initial="hidden"
+                animate="visible"
+                transition={{
+                  ease: "linear",
+                  duration: 1,
+                  x: { duration: 1 }
+                }}
+              >
                 <div
                   key={project.id}
                   className="flex max-h-fit w-[360px] flex-col gap-3 rounded-3xl bg-gray-100 p-4"
@@ -199,6 +238,7 @@ function Showcase() {
                     </a>
                   </div>
                 </div>
+                </motion.div>
               )
             })}
         </div>
