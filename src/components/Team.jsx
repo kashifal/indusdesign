@@ -1,97 +1,119 @@
-import Image from 'next/image';
-
-
+import Image from 'next/image'
 
 const people = [
-    {
-      name: 'Kashif Sulehria',
-      role: 'Founder Indus Designers',
-      imageUrl:
-        '/images/kashee.jpg',
-      twitterUrl: '#',
-      linkedinUrl: '#',
-    },
-    {
-        name: ' Shaheer',
-        role: 'React/Next Engineer',
-        imageUrl:
-        'https://images.unsplash.com/flagged/photo-1577973371814-78b04a45ce5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
-      },
-      {
-        name: 'Hamza Svaslio',
-        role: 'Tailwind CSS Expert',
-        imageUrl:
-        'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA4fHxtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
-        twitterUrl: '#',
-        linkedinUrl: '#',
-      },
-      {
-        name: 'Qamar Mush',
-        role: 'UIUX',
-        imageUrl:
-          'https://images.unsplash.com/photo-1580518337843-f959e992563b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE4fHxtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
-        twitterUrl: '#',
-        linkedinUrl: '#',
-      },
-      {
-        name: 'Anisha',
-        role: 'PSD/FIGMA/XD to HTML',
-        imageUrl:
-          'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
-      },
-    // More people...
-  ]
-  
-  export default function Team() {
-    return (
-      <div className="bg-white py-32">
-        <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
-          <div className="mx-auto max-w-2xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our team</h2>
-            <p className="mt-4 text-lg leading-8 text-gray-600">
-              We’re a dynamic group of individuals who are passionate about what we do.
-            </p>
-          </div>
-          <ul
-            role="list"
-            className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5"
-          >
-            {people.map((person) => (
-              <li key={person.name}>
-                <img className="mx-auto object-cover ring-2 ring-yellow-400 h-36 w-36 bg-center rounded-full" src={person.imageUrl} alt="" />
-                <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
-                <p className="text-sm leading-6 text-gray-600">{person.role}</p>
-                <ul role="list" className="mt-6 flex justify-center gap-x-6">
-                  <li>
-                    <a href={person.twitterUrl} className="text-gray-400 hover:text-gray-500">
-                      <span className="sr-only">Twitter</span>
-                      <svg className="h-5 w-5" aria-hidden="true" fill="#1D9BF0" viewBox="0 0 20 20">
-                        <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
-                      </svg>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={person.linkedinUrl} className="text-gray-400 hover:text-gray-500">
-                      <span className="sr-only">LinkedIn</span>
-                      <svg className="h-5 w-5" aria-hidden="true" fill="#0A77B5" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            ))}
-          </ul>
+  {
+    name: 'Kashif S.',
+    role: 'Founder IndusApps',
+    imageUrl: '/images/kashee.jpg',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: ' Shaheer I.',
+    role: 'React/Next Engineer',
+    imageUrl: '/images/sheer.jpeg',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Hamza W.',
+    role: 'Tailwind CSS Expert',
+    imageUrl: '/images/hamza.jpeg',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Qamar M.',
+    role: 'UIUX',
+    imageUrl: '/images/qamar.jpeg',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Anisha F.',
+    role: 'PSD/FIGMA/XD to HTML',
+    imageUrl:
+      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+  },
+  // More people...
+]
+
+export default function Team() {
+  return (
+    <div className="bg-white py-32">
+      <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
+        <div className="mx-auto max-w-2xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            Meet our Dolphins
+          </h2>
+          <p className="mt-4 text-lg leading-8 text-gray-600">
+            We’re a dynamic group of individuals who are passionate about what
+            we do.
+          </p>
         </div>
+        <ul
+          role="list"
+          className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5"
+        >
+          {people.map((person) => (
+            <li key={person.name}>
+              <div className="relative">
+                <img
+                  className="mx-auto h-36 w-36 rounded-full bg-center object-cover ring-2 ring-blue-400"
+                  src={person.imageUrl}
+                  alt=""
+                />
+                <svg
+                className='absolute bottom-4 right-8 h-8 w-8'
+                  width="122"
+                  height="100"
+                  viewBox="0 0 122 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="50" cy="50" r="50" fill="#2563EB" />
+                  <path
+                    d="M120 71.6738C111.572 50.3927 103.354 43.2288 95.5584 37.1184C91.7657 34.1685 94.5049 30.3759 101.247 28.4795C96.6119 27.8474 90.9229 27.0046 83.759 32.0615C75.5415 28.2688 44.3574 23.4227 40.9861 45.5465L38.4577 48.9178C37.1935 52.9212 38.6684 52.4998 41.4075 51.0248C44.1467 49.5499 58.2638 45.7572 62.2672 47.8643C65.4277 55.2389 69.6418 56.5031 79.7556 57.9781C76.8057 56.2924 72.5917 55.0282 71.5382 48.7071C78.07 48.4964 93.2406 53.5533 99.5617 59.6637C97.4547 54.6068 76.8057 38.5933 50.6785 44.9144C49.8357 40.0682 59.7387 34.1685 71.3275 35.0114C82.4947 35.8542 93.2406 38.804 101.037 45.7572C109.216 52.8695 115.696 61.7257 120 71.6738Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="2.10704"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">
+                {person.name}
+              </h3>
+              <p className="text-sm leading-6 text-gray-600">{person.role}</p>
+              <ul role="list" className="mt-6 flex justify-center gap-x-6">
+                <li>
+                  <a
+                    href={person.twitterUrl}
+                    className="text-gray-400   hover:text-gray-500"
+                  >
+                    <span className="sr-only">Twitter</span>
+                    <svg className="h-5  w-5" xmlns="http://www.w3.org/2000/svg"    viewBox="0 0 24 24"><path fill="#6fda44" d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076l.008-.042c.207-1.143.849-3.06 2.839-3.06a2.705 2.705 0 0 1 2.703 2.703a2.707 2.707 0 0 1-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366c-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112a2.551 2.551 0 0 1-2.547 2.548a2.55 2.55 0 0 1-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303c2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109c3 0 5.439-2.452 5.439-5.45c0-3-2.439-5.439-5.439-5.439z"/></svg>
+                  
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={person.twitterUrl}
+                    className="text-gray-400   hover:text-gray-500"
+                  >
+                    <span className="sr-only">Twitter</span>
+                   
+                    <svg className="h-5  w-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-2 -2 24 24"><g fill="#1dbf73"><path d="M13.427 13.148v-5h-5v-.312c0-.517.42-.938.938-.938h.937V5.023h-.937a2.816 2.816 0 0 0-2.813 2.813v.312h-1.25v1.875h1.25v3.125h-1.25v1.875h4.375v-1.875h-1.25v-3.125h3.143v3.125h-1.268v1.875h4.375v-1.875h-1.25z"/><circle cx="12.402" cy="5.971" r="1.001"/><path d="M4 2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H4zm0-2h12a4 4 0 0 1 4 4v12a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z"/></g></svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          ))}
+        </ul>
       </div>
-    )
-  }
-  
+    </div>
+  )
+}

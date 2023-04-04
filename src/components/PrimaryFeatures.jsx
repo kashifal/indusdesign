@@ -192,7 +192,7 @@ function InviteScreen({ custom, animated = false }) {
               </div>
             ))}
           </div>
-          <div className="mt-6 rounded-lg bg-emerald-500 py-2 px-3 text-center text-sm font-semibold text-white">
+          <div className="mt-6 rounded-lg bg-blue-500 py-2 px-3 text-center text-sm font-semibold text-white">
             Invite person
           </div>
         </div>
@@ -286,7 +286,7 @@ function StocksScreen({ custom, animated = false }) {
                   className={clsx(
                     'text-xs leading-5',
                     stock.change.startsWith('+')
-                      ? 'text-emerald-500'
+                      ? 'text-blue-500'
                       : 'text-gray-500'
                   )}
                 >
@@ -344,7 +344,7 @@ function InvestScreen({ custom, animated = false }) {
                 </div>
               </div>
             ))}
-            <div className="rounded-lg bg-emerald-500 py-2 px-3 text-center text-sm font-semibold text-white">
+            <div className="rounded-lg bg-blue-500 py-2 px-3 text-center text-sm font-semibold text-white">
               Buy shares
             </div>
           </div>
@@ -548,15 +548,10 @@ export function PrimaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-          <h2 className="text-3xl font-medium tracking-tight text-white">
-            Every feature you need to win. Try it for yourself.
+          <h2 className="text-3xl font-medium tracking-tight text-white"> 
+            We Deliver on time with Quality and Quantity.
           </h2>
-          <p className="mt-2 text-lg text-gray-400">
-            Pocket was built for investors like you who play by their own rules
-            and aren’t going to let SEC regulations get in the way of their
-            dreams. If other investing tools are afraid to build it, Pocket has
-            it.
-          </p>
+           
         </div>
       </Container>
       <div className="mt-16 md:hidden">

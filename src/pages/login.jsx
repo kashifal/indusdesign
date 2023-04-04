@@ -46,7 +46,7 @@ export default function Login() {
               required
             />
           </div>
-          <Button type="submit" color="emerald" className="mt-8 w-full">
+          <Button type="submit" color="blue" className="mt-8 w-full">
             Get a Quote
           </Button>
         </form>

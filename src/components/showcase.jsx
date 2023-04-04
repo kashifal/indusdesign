@@ -103,7 +103,7 @@ function Showcase() {
     <div id="showcase">
       <div className="m-auto flex max-h-fit w-full max-w-6xl flex-col items-center justify-center gap-10 py-10">
         <div className="flex flex-col justify-center gap-2 text-center">
-          <span className="rounded-full px-3 py-1 font-semibold text-emerald-600">
+          <span className="rounded-full px-3 py-1 font-semibold text-blue-600">
             Showcase
           </span>
           <h1 className="text-xl font-bold sm:text-3xl sm:font-black md:text-4xl">
@@ -116,7 +116,7 @@ function Showcase() {
               onClick={() => setTab('all')}
               className={`rounded-full py-1 px-4 text-sm font-semibold ${
                 tab === 'all'
-                  ? 'bg-emerald-600 text-white'
+                  ? 'bg-blue-600 text-white'
                   : 'hover:bg-gray-100'
               }`}
             >
@@ -126,7 +126,7 @@ function Showcase() {
               onClick={() => setTab('reactjs')}
               className={`rounded-full py-1 px-4 text-sm font-semibold ${
                 tab === 'reactjs'
-                  ? 'bg-emerald-600 text-white'
+                  ? 'bg-blue-600 text-white'
                   : 'hover:bg-gray-100'
               }`}
             >
@@ -136,7 +136,7 @@ function Showcase() {
               onClick={() => setTab('vuejs')}
               className={`rounded-full py-1 px-4 text-sm font-semibold ${
                 tab === 'vuejs'
-                  ? 'bg-emerald-600 text-white'
+                  ? 'bg-blue-600 text-white'
                   : 'hover:bg-gray-100'
               }`}
             >
@@ -167,7 +167,7 @@ function Showcase() {
                     <a
                       target={'_blank'}
                       href={project.link}
-                      className="text-sm font-semibold hover:text-emerald-600"
+                      className="text-sm font-semibold hover:text-blue-600"
                     >
                       <span>{project.name}</span>
                       <ArrowUpRightIcon className="ml-1 inline-block h-4 w-4" />
@@ -199,7 +199,7 @@ function Showcase() {
                     <a
                       target={'_blank'}
                       href={project.link}
-                      className="text-sm font-semibold hover:text-emerald-600"
+                      className="text-sm font-semibold hover:text-blue-600"
                     >
                       <span>{project.name}</span>
                       <ArrowUpRightIcon className="ml-1 inline-block h-4 w-4" />
@@ -231,7 +231,7 @@ function Showcase() {
                     <a
                       target={'_blank'}
                       href={project.link}
-                      className="text-sm font-semibold hover:text-emerald-600"
+                      className="text-sm font-semibold hover:text-blue-600"
                     >
                       <span>{project.name}</span>
                       <ArrowUpRightIcon className="ml-1 inline-block h-4 w-4" />
