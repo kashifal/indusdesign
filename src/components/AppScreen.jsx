@@ -27,7 +27,7 @@ function UserIcon(props) {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-      />
+      /> 
     </svg>
   )
 }

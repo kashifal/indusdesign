@@ -117,7 +117,7 @@ export function Header() {
                        
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            <Button href="/login" >
+                            <Button href="/quote" >
                               Get a Quote
                             </Button> 
                             
@@ -129,7 +129,7 @@ export function Header() {
                 </>
               )}
             </Popover>
-            <Button href="/login"  className="hidden lg:block">
+            <Button href="/quote"  className="hidden lg:block">
             Get a Quote
             </Button>
           
