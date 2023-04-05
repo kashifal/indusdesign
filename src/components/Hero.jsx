@@ -346,7 +346,7 @@ export function Hero() {
               
               <Button
               
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                href="https://www.fiverr.com/share/p5wwgG"
                
                 className="  px-8  "
               >
@@ -356,7 +356,7 @@ export function Hero() {
               <Button
               variant="outline"
               
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                href="https://www.upwork.com/freelancers/~01292a31884ed71145"
                
                 className=" px-8 "
               > 

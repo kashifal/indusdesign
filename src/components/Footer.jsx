@@ -38,7 +38,7 @@ export function Footer() {
             </nav>
           </div>
           <div className="group relative -mx-4 flex items-center self-stretch p-4 transition-colors hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
-            <div className="relative flex h-24 w-24 flex-none items-center justify-center">
+            <div className="relative flex h-20 w-20 flex-none items-center justify-center">
               <QrCodeBorder className="absolute inset-0 h-full w-full stroke-gray-300 transition-colors group-hover:stroke-blue-500" />
               <Image src={qrCode} alt="" unoptimized />
             </div>
@@ -55,21 +55,8 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center border-t border-gray-200 pt-8 pb-12 md:flex-row-reverse md:justify-between md:pt-6">
-          <form className="flex w-full justify-center md:w-auto">
-            <TextField
-              type="email"
-              aria-label="Email address"
-              placeholder="Email address"
-              autoComplete="email"
-              required
-              className="w-60 min-w-0 shrink"
-            />
-            <Button type="submit" color="blue" className="ml-4 flex-none">
-              <span className="hidden lg:inline">Join our newsletter</span>
-              <span className="lg:hidden">Join newsletter</span>
-            </Button>
-          </form>
+        <div className="flex   items-start border-t border-gray-200 pt-8 pb-12 justify-start md:pt-6">
+           
           <p className="mt-6 text-sm text-gray-500 md:mt-0">
             &copy; Copyright {new Date().getFullYear()}. All rights reserved.
           </p>
