@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import Image from 'next/image'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -74,9 +75,10 @@ export default function App() {
         
         {
             sliders.map(({title, link, desc, tags, img}) => (
-                <SwiperSlide >
+                <SwiperSlide key={link}>
                 <div className="h-32 w-full border-2 border-blue-300">
-                <img className="object-cover" src={img} alt="" />
+               
+                <Image className="object-cover" src={img} alt="" />
                      
                 </div>
                      <div className="px-2 py-3  text-left">
@@ -92,9 +94,9 @@ export default function App() {
 
                      <div className="mr-auto px-2 mt-2 flex gap-4 items-center ">
                         {
-                            tags?.map((tag) => (
+                            tags?.map((tag, index) => (
                              
-                                <span className="px-2 py-1 bg-blue-100 rounded-full text-xs text-blue-600" >{tag}</span>
+                                <span key={index} className="px-2 py-1 bg-blue-100 rounded-full text-xs text-blue-600" >{tag}</span>
                             ))
                         }
                       

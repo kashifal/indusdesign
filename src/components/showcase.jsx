@@ -1,5 +1,7 @@
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import Image from 'next/image'
+
 import React, { useState } from 'react'
 import { ArrowUpRightIcon } from '@heroicons/react/20/solid'
 import { motion } from 'framer-motion'; // Import motion component from Framer Motion
@@ -146,7 +148,7 @@ function Showcase() {
         </div>
         <div className="flex flex-wrap items-center justify-center gap-6">
           {tab === 'all' &&
-            projects.map((project) => {
+            projects.map((project,index) => {
               return (
                 <motion.div
                 variants={footerVariant}
@@ -159,10 +161,11 @@ function Showcase() {
                 }}
               >
                 <div
-                  key={project.id}
+                  key={index}
                   className="flex max-h-fit w-[360px] flex-col gap-3 rounded-3xl bg-gray-100 p-4"
                 >
-                  <img className="rounded-3xl" src={project.image} alt="" />
+               
+                  <Image  className="rounded-3xl" src={project.image} alt="" />
                   <div>
                     <a
                       target={'_blank'}
