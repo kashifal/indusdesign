@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import Image from 'next/image'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -75,10 +74,9 @@ export default function App() {
         
         {
             sliders.map(({title, link, desc, tags, img}) => (
-                <SwiperSlide key={link}>
+                <SwiperSlide >
                 <div className="h-32 w-full border-2 border-blue-300">
-               
-                <Image className="object-cover" src={img} alt="" />
+                <img className="object-cover" src={img} alt="" />
                      
                 </div>
                      <div className="px-2 py-3  text-left">

@@ -1,7 +1,5 @@
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import Image from 'next/image'
-
 import React, { useState } from 'react'
 import { ArrowUpRightIcon } from '@heroicons/react/20/solid'
 import { motion } from 'framer-motion'; // Import motion component from Framer Motion
@@ -161,11 +159,10 @@ function Showcase() {
                 }}
               >
                 <div
-                  key={index}
+                  key={project.id}
                   className="flex max-h-fit w-[360px] flex-col gap-3 rounded-3xl bg-gray-100 p-4"
                 >
-               
-                  <Image  className="rounded-3xl" src={project.image} alt="" />
+                  <img className="rounded-3xl" src={project.image} alt="" />
                   <div>
                     <a
                       target={'_blank'}

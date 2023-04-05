@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Link from 'next/link'
-import { AnimatePresence, motion } from 'framer-motion'
+
 
 export function NavLinks() {
   let [hoveredIndex, setHoveredIndex] = useState(null)
@@ -21,7 +21,7 @@ export function NavLinks() {
       onMouseEnter={() => setHoveredIndex(index)}
       onMouseLeave={() => setHoveredIndex(null)}
     >
-      <AnimatePresence>
+      
         {hoveredIndex === index && (
           <motion.span
             className="absolute inset-0 rounded-lg bg-gray-100"
@@ -34,7 +34,7 @@ export function NavLinks() {
             }}
           />
         )}
-      </AnimatePresence>
+      
       <span className="relative z-10">{label}</span>
     </Link>
   ))
