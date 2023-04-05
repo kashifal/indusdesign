@@ -78,6 +78,7 @@ export function Header() {
                       )
                     }
                   </Popover.Button>
+                  
                   <AnimatePresence initial={false}>
                     {open && (
                       <>
@@ -121,7 +122,9 @@ export function Header() {
                               Get a Quote
                             </Button> 
                             
+                            
                           </div>
+                          
                         </Popover.Panel>
                       </>
                     )}
@@ -129,9 +132,10 @@ export function Header() {
                 </>
               )}
             </Popover>
-            <Button href="/quote"  className="hidden lg:block">
+            <Button href="/quote"  className="hidden whitespace-nowrap lg:block">
             Get a Quote
             </Button>
+            <a className="text-sm hidden lg:block px-2 py-0.5 bg-gray-50 rounded-full text-emerald-700 font-semibold" href="mailto:ikashif@indusappps.com">ikashif@indusappps.com</a>
           
             
           </div>
