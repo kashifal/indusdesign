@@ -16,10 +16,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>IndusApps. - Hire Designers / Developers</title>
+        <title>IndusAppps. - Hire Designers / Developers</title>
         <meta
           name="description"
-          content="By leveraging insights from our network of industry insiders, you’ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses."
+          content="Your frontend team is here. Hire Vue js, React js, Figma to HTML and Tailwind, Next and Nuxt pixel-perfect Developers"
         />
       </Head>
       <Header />
