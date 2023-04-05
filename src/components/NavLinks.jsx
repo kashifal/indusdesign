@@ -12,7 +12,7 @@ export function NavLinks() {
     ['Pricing', '#pricing','old'],
     ['FAQs', '#faqs','old'],
     ['Showcase', '#showcase','old'],
-    ['Download Templates', '/template', 'new'],
+   
 
   ].map(([label, href, isNew], index) => (
     <Link
