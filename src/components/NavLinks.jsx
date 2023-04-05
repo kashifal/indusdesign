@@ -7,14 +7,14 @@ export function NavLinks() {
   let [hoveredIndex, setHoveredIndex] = useState(null)
 
   return [
-    ['Features', '#features'],
-    ['Reviews', '#reviews'],
-    ['Pricing', '#pricing'],
-    ['FAQs', '#faqs'],
-    ['Showcase', '#showcase'],
-    ['Download Templates', '#templates'],
+    ['Features', '#features','old'],
+    ['Reviews', '#reviews','old'],
+    ['Pricing', '#pricing','old'],
+    ['FAQs', '#faqs','old'],
+    ['Showcase', '#showcase','old'],
+    ['Download Templates', '/template', 'new'],
 
-  ].map(([label, href], index) => (
+  ].map(([label, href, isNew], index) => (
     <Link
       key={label}
       href={href}
@@ -36,7 +36,7 @@ export function NavLinks() {
           />
         )}
       
-      <span className="relative z-10">{label}</span>
+      <span className="relative z-10">{label} {isNew === 'new' ? <span className='px-1.5 py-0.5 ml-1 text-xs  text-yellow-500 bg-yellow-50 ring-1 ring-yellow-500 rounded-xl'>new</span> : ''}</span>
     </Link>
   ))
 }
