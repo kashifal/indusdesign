@@ -348,7 +348,7 @@ export function Hero() {
               
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                
-                className=" text-white px-8  "
+                className="  px-8  "
               >
                 Fiverr
                
@@ -358,7 +358,7 @@ export function Hero() {
               
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                
-                className=" text-white px-8 "
+                className=" px-8 "
               > 
                Upwork
               </Button>

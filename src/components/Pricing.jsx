@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { RadioGroup } from '@headlessui/react'
 import clsx from 'clsx'
+import emailjs from '@emailjs/browser';
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -67,6 +68,7 @@ const plans = [
 ]
 
 function CheckIcon(props) {
+  
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
       <path
@@ -100,7 +102,7 @@ function Plan({
   return (
     <section
       className={clsx(
-        'flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5',
+        'flex flex-col  overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5',
         featured ? 'order-first bg-gray-900 lg:order-none' : 'bg-white'
       )}
     >
@@ -191,7 +193,17 @@ function Plan({
 
 export function Pricing() {
   let [activePeriod, setActivePeriod] = useState('Monthly')
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <section
       id="pricing"
