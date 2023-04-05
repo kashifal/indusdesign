@@ -16,7 +16,7 @@ const plans = [
       'You want hire 1 developer on monthly basis or Yearly, We got plan for you.',
     button: {
       label: 'Get a Quote',
-      href: '/register',
+      href: '/quote',
     },
     features: [
       'PSD to HTML',
@@ -34,7 +34,7 @@ const plans = [
       'You want hire 1 Vue.js / Nuxt / Tailwind developer on monthly basis or Yearly, We got plan for you.',
     button: {
       label: 'Get a Quote',
-      href: '/register',
+      href: '/quote',
     },
     features: [
       'Figma to HTML / Tailwind',
@@ -53,7 +53,7 @@ const plans = [
       'You’ve got a huge amount of assets but it’s not enough. To the moon.',
     button: {
       label: 'Get a Quote',
-      href: '/register',
+      href: '/quote',
     },
     features: [
       'Figma to HTML / Tailwind',

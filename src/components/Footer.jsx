@@ -29,7 +29,7 @@ export function Footer() {
             <div className="flex items-center text-gray-900">
               <Logomark className="h-10 w-10 flex-none fill-blue-500" />
               <div className="ml-4">
-                <p className="text-base font-semibold">Indus Apps.</p>
+                <p className="text-base font-semibold">IndusAppps LLC.</p>
                 <p className="mt-1 text-sm">Hire Designers / Developers</p>
               </div>
             </div>
