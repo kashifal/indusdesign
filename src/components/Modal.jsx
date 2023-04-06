@@ -82,7 +82,7 @@ export default function Modal() {
             >
               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6">
               {
-                message ? <h1 className='text-center text-emerald-700 py-2 text-xl bg-emerald-100'>Thanks, Check your inbox</h1> :  <h1 className='text-center text-gray-700 py-2 text-2xl font-bold py-6'>Ask us anything ~ Budget / Time</h1>
+                message ? <h1 className='text-center text-blue-700 py-2 text-sm rounded-md font-normal my-2 bg-blue-100'>Thanks, Check your inbox</h1> :  <h1 className='text-center my-3 text-gray-700 py-2 text-2xl font-bold py-6'>Ask us anything ~ Budget / Time</h1>
               }
         <form ref={form} onSubmit={sendEmail}>
           <div className="space-y-6">
