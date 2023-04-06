@@ -9,7 +9,8 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { Reviews } from '@/components/Reviews'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import Team from '@/components/Team'
+import Team from '@/components/Team';
+import {HeroSection} from '@/components/HeroSection';
 import Showcase from '../components/showcase';
 // import Showcase from '../components/showcase';
 import Modal from '@/components/Modal';
@@ -30,6 +31,7 @@ export default function Home() {
         <Modal />
         <PrimaryFeatures />
         <SecondaryFeatures />
+        
         <CallToAction />
         <div className="py-24 sm:pt-32">
           <h2
@@ -91,6 +93,7 @@ export default function Home() {
 
         <Reviews />
         <Team />
+        <HeroSection />
         <Pricing />
 
         <Faqs />
