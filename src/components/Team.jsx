@@ -1,6 +1,27 @@
 import Image from 'next/image'
 
 const people = [
+  
+  {
+    name: ' Shaheer I.',
+    role: 'React/Next Engineer',
+    imageUrl: '/images/sheer.jpeg',
+    twitterUrl: 'https://github.com/shaheersystems',
+    linkedinUrl: '#',
+    insta:false,
+    linkedin:false,
+    link:'https://www.instagram.com/fullplateofgraphics/'
+  },
+  {
+    name: 'Hamza W.',
+    role: 'Tailwind CSS Expert',
+    imageUrl: '/images/hamza.png',
+    twitterUrl: 'https://www.github.com/hamzawattoo',
+    linkedinUrl: '#',
+    insta:false,
+    linkedin:false,
+    link:'https://www.instagram.com/fullplateofgraphics/'
+  },
   {
     name: 'Kashif S.',
     role: 'Founder IndusAppps',
@@ -12,30 +33,10 @@ const people = [
     link:'https://www.instagram.com/fullplateofgraphics/'
   },
   {
-    name: ' Shaheer I.',
-    role: 'React/Next Engineer',
-    imageUrl: '/images/sheer.jpeg',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-    insta:false,
-    linkedin:false,
-    link:'https://www.instagram.com/fullplateofgraphics/'
-  },
-  {
-    name: 'Hamza W.',
-    role: 'Tailwind CSS Expert',
-    imageUrl: '/images/hamza.png',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-    insta:false,
-    linkedin:false,
-    link:'https://www.instagram.com/fullplateofgraphics/'
-  },
-  {
     name: 'Qamar M.',
     role: 'Vue JS / NUXT.JS',
     imageUrl: '/images/qamar.jpeg',
-    twitterUrl: '#',
+    twitterUrl: 'https://www.github.com/qamarmushtaq',
     linkedinUrl: '#',
     insta:false,
     linkedin:false,
@@ -104,7 +105,7 @@ export default function Team() {
               </h3>
               <p className="text-sm leading-6 text-gray-600">{person.role}</p>
               <ul role="list" className="mt-6 flex justify-center gap-x-6">
-                <li>
+                <li className={person.insta ? 'h-8 w-8 bg-pink-50 rounded-full flex items-center ring-1 ring-pink-500 justify-center' : person.linkedin ? 'h-8 w-8 bg-blue-50 rounded-full ring-1 ring-blue-500 flex items-center justify-center' : 'h-8 w-8 bg-gray-100 ring-1 ring-gray-500 rounded-full flex items-center justify-center'}>
                   
                   <a
                   target="_blank"

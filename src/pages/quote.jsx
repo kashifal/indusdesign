@@ -16,11 +16,7 @@ export default function Login() {
   const form = useRef()
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState(false);
-  const [my_form, setMy_form] = useState({
-    name:'',
-    email:'',
-    message:''
-  })
+  
 
   const sendEmail = (e) => {
     e.preventDefault()
