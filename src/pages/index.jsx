@@ -10,7 +10,9 @@ import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { Reviews } from '@/components/Reviews'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import Team from '@/components/Team'
-import Showcase from '../components/showcase'
+import Showcase from '../components/showcase';
+// import Showcase from '../components/showcase';
+import Modal from '@/components/Modal';
 
 export default function Home() {
   return (
@@ -25,6 +27,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Modal />
         <PrimaryFeatures />
         <SecondaryFeatures />
         <CallToAction />
