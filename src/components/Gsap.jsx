@@ -19,7 +19,7 @@ export default function App() {
   return (
     <>
        <div className="relative h-full w-full">
-        <div className="w-full h-full left-0 mx-auto flex-col flex items-center justify-center absolute top-0 z-50 ">
+        <div className="w-full h-full left-0 mx-auto flex-col hidden lg:flex items-center justify-center absolute top-0 z-50 ">
         <h1 class="text-7xl font-black leading-snug text-white text-transparent" style={{ WebkitTextStroke: '1px #2563eb' }}>PERFECT ANIMATIONS</h1>
 
         <h1 className="text-xl font-semobild text-white">Eye-Catching, Responsive and Stunning Animations </h1>
