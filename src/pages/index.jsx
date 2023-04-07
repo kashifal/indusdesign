@@ -95,7 +95,7 @@ export default function Home() {
         </a>
 
         <Reviews />
-        <Gsap />
+      
         <Team />
         <HeroSection />
         <Pricing />
