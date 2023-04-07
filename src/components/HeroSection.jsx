@@ -1,4 +1,5 @@
 import { Fragment } from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import clsx from 'clsx'
 import theme from 'prism-react-renderer/themes/okaidia'
@@ -10,17 +11,21 @@ import blurIndigoImage from '@/images/blur-indigo.png'
 
 const codeLanguage = 'javascript'
 const code = ` 
-const Team = ['Kashif', 'Shaheer', 
-'Qamar','Hamza', 'Fatima'];
-
-const Founder = Team[0];
-const Next_dev = Team[1];
-const Vue_dev = Team[2];
-const HTML_dev = Team[3];
-const UIUX_dev = Team[4];
-
-console.log('We are team of Stars');
-
+// Declare a variable named "number" and assign it a value of 10
+let number = 10;
+// Check if the number is greater than 5
+if (number > 5) {
+  // If it is, log "Number is greater than 5" to the console
+  console.log("Number is greater than 5");
+} else {
+  // If it isn't, log "Number is less than or equal to 5" to the console
+  console.log("Number is less than or equal to 5");
+}
+// Declare a function named "doubleNumber" that takes a parameter named "num"
+function doubleNumber(num) {
+  // Return the value of "num" multiplied by 2
+  return num * 2;
+}  
 `
 
 const tabs = [
@@ -60,8 +65,11 @@ export function HeroSection() {
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
                 We build your web apps with Hight quality, commented and Human readable Code.
               </p>
-              <div class="mt-20 flex flex-wrap gap-x-2 gap-y-2">
-                <a class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-white   text-gray-900  active:bg-gray-800 active:text-white/80  px-8 " href="https://www.fiverr.com/share/p5wwgG">Order Now</a>
+              <p className='mt-6 text-slate-400'>
+                Want to see more code examples, here is our <u><a target="_blank" href="https://github.com/kashifal">github</a></u>
+              </p>
+              <div class="mt-12 flex flex-wrap gap-x-2 gap-y-2">
+                <Link  class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-white   text-gray-900  active:bg-gray-800 active:text-white/80  px-8 " href="/quote">Order Now</Link>
                 {/* <a class="inline-flex justify-center rounded-lg border py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-sm outline-2 outline-offset-2 transition-colors border-gray-300 text-gray-700 hover:border-gray-400 active:bg-gray-100 active:text-gray-700/80  px-8 " href="https://www.upwork.com/freelancers/~01292a31884ed71145">Upwork</a> */}
                 </div>
             </div>

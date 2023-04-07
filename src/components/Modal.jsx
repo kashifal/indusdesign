@@ -52,7 +52,7 @@ export default function Modal() {
   useEffect(() => {
    setTimeout(() => {
     setOpen(true);
-   }, 5000)
+   }, 10000)
   },[])
   return (
     <Transition.Root show={open} as={Fragment}>
@@ -81,6 +81,15 @@ export default function Modal() {
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6">
+              
+              
+              <span className='absolute right-4 top-4 inline-flex cursor-pointer' onClick={() => setOpen(false)}>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" className="w-6 h-6 bg-blue-600 rounded-full">
+  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clipRule="evenodd" />
+</svg>
+
+              </span>
+              
               {
                 message ? <h1 className='text-center text-blue-700 py-2 text-sm rounded-md font-normal my-2 bg-blue-100'>Thanks, Check your inbox</h1> :  <h1 className='text-center my-3 text-gray-700 py-2 text-2xl font-bold py-6'>Ask us anything ~ Budget / Time</h1>
               }
