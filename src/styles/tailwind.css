@@ -92,3 +92,15 @@ margin-bottom: 10px;
   justify-content: center;
   font-size: 15px !important;
 }
+
+
+#canvas-container {
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}

@@ -12,6 +12,7 @@ import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import Team from '@/components/Team';
 import {HeroSection} from '@/components/HeroSection';
 import Showcase from '../components/showcase';
+import Gsap from '@/components/Gsap';
 // import Showcase from '../components/showcase';
 import Modal from '@/components/Modal';
 
@@ -27,9 +28,11 @@ export default function Home() {
       </Head>
       <Header />
       <main>
+     
         <Hero />
         <Modal />
         <PrimaryFeatures />
+       
         <SecondaryFeatures />
         
         <CallToAction />
@@ -92,9 +95,11 @@ export default function Home() {
         </a>
 
         <Reviews />
+        <Gsap />
         <Team />
         <HeroSection />
         <Pricing />
+       
 
         <Faqs />
         <Showcase />
