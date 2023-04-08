@@ -45,7 +45,7 @@ const people = [
   {
     name: 'Fatima I.',
     role: 'Graphics x UIUX Designer',
-    imageUrl: '/images/fatima.png',
+    imageUrl: '/images/fatima.jpg',
     linkedinUrl: '#',
     insta:true,
     linkedin:false,

@@ -336,8 +336,8 @@ export function Hero() {
       <Container>
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-            <h1 className="text-4xl font-medium tracking-tight text-gray-900">
-             From  Figma to <span className='text-white px-1 bg-blue-600 font-bold '>Vue / React</span>, we build stunning websites that work.
+            <h1 className="text-4xl  tracking-tight text-gray-800 font-bold">
+             From  Figma to  <u className='text-emerald-600'>Vue</u> / <u  className='text-cyan-600'>React</u>, we build stunning websites that work.
             </h1>
             <p className="mt-6 text-lg text-gray-600">
                With expertise in   Vue  React, and Tailwind CSS    we create  beautiful and functional interfaces that engage users and drive conversions. Whether you need a custom web app, a responsive landing page, or a dynamic e-commerce site, we have the skills to bring your vision to life.
