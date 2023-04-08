@@ -44,7 +44,7 @@ const people = [
   },
   {
     name: 'Fatima I.',
-    role: 'Graphics x UIUX Designer',
+    role: 'Graphics x UIUX ',
     imageUrl: '/images/fatima.jpg',
     linkedinUrl: '#',
     insta:true,
@@ -57,7 +57,7 @@ const people = [
 export default function Team() {
   return (
     <div className="bg-white py-32">
-      <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
+      <div className="mx-auto max-w-5xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Meet our Dolphins
@@ -69,36 +69,19 @@ export default function Team() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5"
+          className="mx-auto mt-28 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5"
         >
-          {people.map((person) => (
+          {people.map((person, index) => (
             <li key={person.name}>
               <div className="relative">
                 <img
-                  className="mx-auto h-36 w-36 rounded-full bg-center object-cover ring-2 ring-blue-400"
+                  className={index === 2 ? "mx-auto h-40 w-40 -translate-y-1/4 rounded-full  bg-center object-cover ring-4 ring-emerald-400" : index === 0  ? "mx-auto h-28 w-28 translate-y-1/4 rounded-full  bg-center object-cover ring-2 ring-blue-400" : index === 4  ? "mx-auto h-28 w-28 translate-y-1/4 rounded-full  bg-center object-cover ring-2 ring-blue-400" : "mx-auto h-28 w-28 rounded-full bg-center object-cover ring-2 ring-blue-400"}
                   src={person.imageUrl}
                   alt=""
                 />
-                <svg
-                className='absolute bottom-4 right-8 h-8 w-8'
-                  width="122"
-                  height="100"
-                  viewBox="0 0 122 100"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="50" cy="50" r="50" fill="#2563EB" />
-                  <path
-                    d="M120 71.6738C111.572 50.3927 103.354 43.2288 95.5584 37.1184C91.7657 34.1685 94.5049 30.3759 101.247 28.4795C96.6119 27.8474 90.9229 27.0046 83.759 32.0615C75.5415 28.2688 44.3574 23.4227 40.9861 45.5465L38.4577 48.9178C37.1935 52.9212 38.6684 52.4998 41.4075 51.0248C44.1467 49.5499 58.2638 45.7572 62.2672 47.8643C65.4277 55.2389 69.6418 56.5031 79.7556 57.9781C76.8057 56.2924 72.5917 55.0282 71.5382 48.7071C78.07 48.4964 93.2406 53.5533 99.5617 59.6637C97.4547 54.6068 76.8057 38.5933 50.6785 44.9144C49.8357 40.0682 59.7387 34.1685 71.3275 35.0114C82.4947 35.8542 93.2406 38.804 101.037 45.7572C109.216 52.8695 115.696 61.7257 120 71.6738Z"
-                    fill="white"
-                    stroke="white"
-                    stroke-width="2.10704"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
+              
               </div>
-              <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">
+              <h3 className="mt-6 text-base pt-8 font-semibold leading-7 tracking-tight text-gray-900">
                 {person.name}
               </h3>
               <p className="text-sm leading-6 text-gray-600">{person.role}</p>
