@@ -11,10 +11,11 @@ import { Reviews } from '@/components/Reviews'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import Team from '@/components/Team';
 import {HeroSection} from '@/components/HeroSection';
-import Showcase from '../components/showcase';
-import Gsap from '@/components/Gsap';
-// import Showcase from '../components/showcase';
+import Showcase from '@/components/showcase';
+import Gsap from '@/components/Gsap'; 
 import Modal from '@/components/Modal';
+
+
 
 export default function Home() {
   return (
@@ -98,9 +99,7 @@ export default function Home() {
       
         <Team />
         <HeroSection />
-        <Pricing />
-       
-
+        <Pricing /> 
         <Faqs />
         <Showcase />
       </main>
