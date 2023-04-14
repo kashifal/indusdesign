@@ -14,7 +14,7 @@ import {HeroSection} from '@/components/HeroSection';
 import Showcase from '@/components/showcase';
 import Gsap from '@/components/Gsap'; 
 import Modal from '@/components/Modal';
-
+import HeroLanding from '@/components/HeroLanding';
 
 
 export default function Home() {
@@ -29,8 +29,9 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-     
+   
         <Hero />
+        <HeroLanding />
         <Modal />
         <PrimaryFeatures />
        
