@@ -5,7 +5,7 @@ const people = [
   {
     name: 'Hassan D.',
     role: 'React/Next Engineer',
-    imageUrl: '/images/sheer.jpeg',
+    imageUrl: '/images/sheer.jpg',
     twitterUrl: 'https://github.com/hasan-mehboob',
     linkedinUrl: '#',
     insta:false,
