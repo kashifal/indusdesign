@@ -3,10 +3,10 @@ import Image from 'next/image'
 const people = [
   
   {
-    name: ' Shaheer I.',
+    name: 'Hassan D.',
     role: 'React/Next Engineer',
     imageUrl: '/images/sheer.jpeg',
-    twitterUrl: 'https://github.com/shaheersystems',
+    twitterUrl: 'https://github.com/hasan-mehboob',
     linkedinUrl: '#',
     insta:false,
     linkedin:false,
