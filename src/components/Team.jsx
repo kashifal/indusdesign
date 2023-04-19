@@ -13,14 +13,14 @@ const people = [
     link:'https://www.instagram.com/fullplateofgraphics/'
   },
   {
-    name: 'Hamza W.',
-    role: 'Tailwind CSS Expert',
+    name: 'Zobayr L.',
+    role: 'PHP/LARAVEL Expert',
     imageUrl: '/images/hamza.png',
-    twitterUrl: 'https://www.github.com/hamzawattoo',
+    twitterUrl: 'https://github.com/ZubairAsif',
     linkedinUrl: '#',
     insta:false,
     linkedin:false,
-    link:'https://www.instagram.com/fullplateofgraphics/'
+    link:''
   },
   {
     name: 'Kashif S.',
