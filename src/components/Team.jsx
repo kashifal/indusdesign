@@ -13,7 +13,7 @@ const people = [
     link:'https://www.instagram.com/fullplateofgraphics/'
   },
   {
-    name: 'Zobayr L.',
+    name: 'Hamza Noori.',
     role: 'PHP/LARAVEL Expert',
     imageUrl: '/images/hamza.png',
     twitterUrl: 'https://github.com/ZubairAsif',
