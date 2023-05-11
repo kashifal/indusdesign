@@ -4,7 +4,7 @@ const people = [
   
   {
     name: 'Hassan D.',
-    role: 'React/Next Engineer',
+    role: 'Sr. React Dev',
     imageUrl: '/images/sheer.jpg',
     twitterUrl: 'https://github.com/hasan-mehboob',
     linkedinUrl: '#',
@@ -13,9 +13,9 @@ const people = [
     link:'https://www.instagram.com/fullplateofgraphics/'
   },
   {
-    name: 'Hamza Noori.',
-    role: 'PHP/LARAVEL Expert',
-    imageUrl: '/images/hamza.png',
+    name: 'Shaheer I.',
+    role: 'Jr. Frontend Dev',
+    imageUrl: '/images/shaheer.jpeg',
     twitterUrl: 'https://github.com/ZubairAsif',
     linkedinUrl: '#',
     insta:false,
@@ -24,7 +24,7 @@ const people = [
   },
   {
     name: 'Kashif S.',
-    role: 'Founder IndusAppps',
+    role: 'Co-Founder',
     imageUrl: '/images/kashee.jpg',
     twitterUrl: 'https://www.linkedin.com/in/kashif-sulehria-9436b3257/',
     linkedinUrl: '#',
@@ -34,7 +34,7 @@ const people = [
   },
   {
     name: 'Qamar M.',
-    role: 'Vue JS / NUXT.JS',
+    role: 'Business Dev.',
     imageUrl: '/images/qamar.jpeg',
     twitterUrl: 'https://www.github.com/qamarmushtaq',
     linkedinUrl: '#',
