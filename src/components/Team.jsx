@@ -75,7 +75,7 @@ export default function Team() {
             <li key={person.name}>
               <div className="relative">
                 <img
-                  className={index === 6 ? "mx-auto h-40 w-40 -translate-y-1/4 rounded-full  bg-center object-cover ring-4 ring-emerald-400" : index === 0  ? "mx-auto h-28 w-28 translate-y-1/4 rounded-full  bg-center object-cover ring-2 ring-blue-400" : index === 4  ? "mx-auto h-28 w-28 translate-y-1/4 rounded-full  bg-center object-cover ring-2 ring-blue-400" : "mx-auto h-28 w-28 rounded-full bg-center object-cover ring-2 ring-blue-400"}
+                  className={"mx-auto h-40 w-40 -translate-y-1/4 rounded-full  bg-center object-cover ring-4 ring-emerald-400"}
                   src={person.imageUrl}
                   alt=""
                 />
