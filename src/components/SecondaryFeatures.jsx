@@ -46,12 +46,7 @@ const features = [
       'We are experts in using the Nuxt.js framework to build highly customizable and scalable websites that are optimized for performance and user experience.',
     icon: nuxt,
   },
-  {
-    name: 'Laravel',
-    description:
-      'We are experts in using the Laravel framework for backend to build highly customizable and scalable websites that are optimized for performance and user experience.',
-    icon: laravel,
-  },
+ 
   {
     name: 'CSS3',
     description:
@@ -137,12 +132,12 @@ export function SecondaryFeatures() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
+          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-4"
         >
           {features.map((feature,index) => (
             <li
               key={feature.name}
-              className={index%2 === 0 ? "rounded-2xl border border-gray-200 p-8 bg-emerald-50 duration-200 cursor-pointer" : "rounded-2xl border border-gray-200 p-8  duration-200 cursor-pointer"}
+              className={index%2 === 0 ? "rounded-2xl border border-gray-200 p-8 bg-lime-100 duration-200 cursor-pointer" : "rounded-2xl border border-gray-200 p-8  duration-200 cursor-pointer"}
             >
               <div className={"h-10 w-10 bg-slate-100 ring-1 ring-slate-400 flex items-center justify-center rounded-full"}>
               <feature.icon className={index === 1 ? "h-6 animate-spin w-6" : "h-6  w-6" } />

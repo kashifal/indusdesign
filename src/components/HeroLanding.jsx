@@ -1,8 +1,8 @@
 const stats = [
-    { id: 1, name: 'Clients', value: '35+' },
+    { id: 1, name: 'Clients', value: '120+' },
     { id: 2, name: 'Success Rate', value: '100%' },
     { id: 3, name: 'Positive Reviews', value: '100%' },
-    { id: 4, name: 'Business', value: '$5k' },
+    { id: 4, name: 'Business', value: '$10k' },
   ]
   
   export default function Example() {
@@ -36,10 +36,10 @@ const stats = [
             </p>
           </div>
           <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-white sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
-            {stats.map((stat) => (
+            {stats.map((stat, index) => (
               <div key={stat.id} className="flex flex-col gap-y-3 border-l border-white/10 pl-6">
                 <dt className="text-sm leading-6">{stat.name}</dt>
-                <dd className="order-first text-3xl font-semibold tracking-tight">{stat.value}</dd>
+                <dd className="order-first text-3xl font-semibold tracking-tight">{stat.value}  {index === 3 ? <span className="text-xs text-lime-500">Per Month Average</span> : ''}</dd>
               </div>
             ))}
           </dl>
