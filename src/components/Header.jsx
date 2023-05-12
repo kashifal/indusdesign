@@ -48,8 +48,8 @@ function MobileNavLink({ children, ...props }) {
 
 export function Header() {
   return (
-    <header>
-      <nav className='shadow-sm'>
+    <header className='sticky top-0 bg-white z-50'>
+      <nav className='shadow-sm '>
         <Container className="relative z-50 flex justify-between  h-16">
           <div className="relative z-10 flex items-center gap-16">
             <Link href="/" aria-label="Home">

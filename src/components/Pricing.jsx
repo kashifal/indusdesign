@@ -63,7 +63,7 @@ const plans = [
       'Figma to Next',
       'Future updates'
     ],
-    logomarkClassName: 'fill-blue-500',
+    logomarkClassName: 'fill-lime-500',
   },
 ]
 
@@ -171,7 +171,7 @@ function Plan({
               <CheckIcon
                 className={clsx(
                   'h-6 w-6 flex-none',
-                  featured ? 'text-white' : 'text-blue-500'
+                  featured ? 'text-white' : 'text-lime-500'
                 )}
               />
               <span className="ml-4">{feature}</span>
@@ -181,7 +181,7 @@ function Plan({
       </div>
       <Button
         href={button.href}
-        color={featured ? 'blue' : 'gray'}
+        color={featured ? 'lime' : 'gray'}
         className="mt-6"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
@@ -249,7 +249,7 @@ export function Pricing() {
             <div
               aria-hidden="true"
               className={clsx(
-                'pointer-events-none absolute inset-0 z-10 grid grid-cols-2 overflow-hidden rounded-lg bg-blue-500 transition-all duration-300',
+                'pointer-events-none absolute inset-0 z-10 grid grid-cols-2 overflow-hidden rounded-lg bg-lime-500 transition-all duration-300',
                 activePeriod === 'Monthly'
                   ? '[clip-path:inset(0_50%_0_0)]'
                   : '[clip-path:inset(0_0_0_calc(50%-1px))]'

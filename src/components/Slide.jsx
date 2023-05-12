@@ -75,7 +75,7 @@ export default function App() {
         {
             sliders.map(({title, link, desc, tags, img}) => (
                 <SwiperSlide >
-                <div className="h-32 w-full border-2 border-blue-300">
+                <div className="h-32 w-full border-2 border-lime-300">
                 <img className="object-cover" src={img} alt="" />
                      
                 </div>
@@ -84,7 +84,7 @@ export default function App() {
                      </div>
                      <div className="px-2 py-1  text-left">
                          
-                          <a href={link} className="text-sm flex items-center gap-2 parent font-medium  px-2 text-blue-600 rounded-full"> <LinkIcon className="h-4 w-4" /> {title} <ArrowRightIcon className="h-4 w-4 " /></a>
+                          <a href={link} className="text-sm flex items-center gap-2 parent font-medium  px-2 text-lime-600 rounded-full"> <LinkIcon className="h-4 w-4" /> {title} <ArrowRightIcon className="h-4 w-4 " /></a>
                     <p className="text-sm pt-3 text-left font-normal">
                      {desc}
                     </p>
@@ -94,7 +94,7 @@ export default function App() {
                         {
                             tags?.map((tag, index) => (
                              
-                                <span key={index} className="px-2 py-1 bg-blue-100 rounded-full text-xs text-blue-600" >{tag}</span>
+                                <span key={index} className="px-2 py-1 bg-lime-100 rounded-full text-xs text-lime-600" >{tag}</span>
                             ))
                         }
                       

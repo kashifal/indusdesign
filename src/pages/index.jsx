@@ -67,9 +67,9 @@ export default function Home() {
 
         <a
           href="https://join.slack.com/t/indusspacegroup/shared_invite/zt-1rpyxjj6b-V1JBqGKEgKLykfwM34NKig"
-          className="fixed bottom-8  right-8 z-50 flex items-center gap-2 rounded-full  px-3 py-3 font-semibold ring-1 ring-transparent duration-300 bg-blue-600"
+          className="fixed bottom-8  right-8 z-50 flex items-center gap-2 rounded-full  px-3 py-3 font-semibold ring-1 ring-transparent duration-300 bg-lime-600"
         >
-          <div className="h-4 w-4 absolute animate-bounce rounded-full flex items-center justify-center -top-1 right-2 ring-1 ring-blue-600 bg-white text-blue-600 text-xs
+          <div className="h-4 w-4 absolute animate-bounce rounded-full flex items-center justify-center -top-1 right-2 ring-1 ring-lime-600 bg-white text-lime-600 text-xs
           ">1</div>
           <svg
             xmlns="http://www.w3.org/2000/svg"

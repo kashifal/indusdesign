@@ -109,16 +109,16 @@ export default function Login() {
                   placeholder="Message here"
                   name="message"
                   id="comment"
-                  class="block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:py-1.5 sm:text-sm sm:leading-6"
+                  class="block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-lime-600 sm:py-1.5 sm:text-sm sm:leading-6"
                 ></textarea>
               </div>
             </div>
-            <Button type="submit" color="blue" className="mt-8 w-full">
+            <Button type="submit" color="lime" className="mt-8 w-full">
               {loading ? (
                 <div role="status">
                   <svg
                     aria-hidden="true"
-                    class="mr-2 h-6 w-6 animate-spin fill-blue-600 text-gray-200 dark:text-gray-600"
+                    class="mr-2 h-6 w-6 animate-spin fill-lime-600 text-gray-200 dark:text-gray-600"
                     viewBox="0 0 100 101"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
