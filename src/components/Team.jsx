@@ -13,9 +13,9 @@ const people = [
     link:'https://www.instagram.com/fullplateofgraphics/'
   },
   {
-    name: 'Shaheer I.',
-    role: 'Jr. Frontend Dev',
-    imageUrl: '/images/shaheer.jpeg',
+    name: 'Hamza Wattoo.',
+    role: 'Jr. Frontend Dev | Vue',
+    imageUrl: '/images/hamza.png',
     twitterUrl: 'https://github.com/ZubairAsif',
     linkedinUrl: '#',
     insta:false,
@@ -24,13 +24,13 @@ const people = [
   },
   {
     name: 'Kashif S.',
-    role: 'Co-Founder',
+    role: 'Founder',
     imageUrl: '/images/kashee.jpg',
-    twitterUrl: 'https://www.linkedin.com/in/kashif-sulehria-9436b3257/',
+    twitterUrl: 'https://www.linkedin.com/in/ikashif-sulehria-9436b3257/',
     linkedinUrl: '#',
     insta:false,
     linkedin:true,
-    link:'https://www.instagram.com/fullplateofgraphics/'
+    link:'https://www.linkedin.com/in/ikashif-sulehria-9436b3257/'
   },
   {
     name: 'Qamar M.',
