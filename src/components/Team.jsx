@@ -16,7 +16,7 @@ const people = [
     name: 'Hamza Wattoo.',
     role: 'Jr. Frontend Dev | Vue',
     imageUrl: '/images/hamza.png',
-    twitterUrl: 'https://github.com/ZubairAsif',
+    twitterUrl: 'https://github.com/hamzawattoo',
     linkedinUrl: '#',
     insta:false,
     linkedin:false,
