@@ -347,21 +347,21 @@ export function Hero() {
               
               <Button
               
-                href="https://www.fiverr.com/share/p5wwgG"
+                href="https://www.fiverr.com/s/4WVdA1"
                
                 className="  px-8  "
               >
-                Fiverr
+                Contact on Fiverr
                
               </Button>
               <Button
               variant="outline"
               
-                href="https://www.upwork.com/freelancers/~01292a31884ed71145"
+                href="/quote"
                
                 className=" px-8 "
               > 
-               Upwork
+                Contact Direcltly Here
               </Button>
             </div>
           </div>
