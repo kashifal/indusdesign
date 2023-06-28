@@ -43,13 +43,13 @@ const people = [
     link:'https://www.instagram.com/fullplateofgraphics/'
   },
   {
-    name: 'Fatima I.',
-    role: 'Graphics x UIUX ',
-    imageUrl: '/images/fatima.jpg',
+    name: 'Shaheer I.',
+    role: 'Jun. React Dev',
+    imageUrl: '/images/shaheer.jpeg',
     linkedinUrl: '#',
-    insta:true,
+    insta:false,
     linkedin:false,
-    link:'https://www.instagram.com/fullplateofgraphics/'
+    link:'https://github.com/shaheersystems'
   },
   // More people...
 ]
