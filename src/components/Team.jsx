@@ -44,7 +44,7 @@ const people = [
   },
   {
     name: 'Shaheer I.',
-    role: 'Jun. React Dev',
+    role: 'Jr. Frontend Dev | React',
     imageUrl: '/images/shaheer.jpeg',
     linkedinUrl: '#',
     insta:false,
