@@ -2,7 +2,7 @@ const stats = [
     { id: 1, name: 'Clients', value: '120+' },
     { id: 2, name: 'Success Rate', value: '100%' },
     { id: 3, name: 'Positive Reviews', value: '100%' },
-    { id: 4, name: 'Business', value: '$10k' },
+    { id: 4, name: 'Business', value: '$5k' },
   ]
   
   export default function Example() {

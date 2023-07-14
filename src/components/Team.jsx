@@ -26,7 +26,7 @@ const people = [
     name: 'Kashif S.',
     role: 'Founder',
     imageUrl: '/images/kashee.jpg',
-    twitterUrl: 'https://www.linkedin.com/in/ikashif-sulehria-9436b3257/',
+    twitterUrl: 'https://www.linkedin.com/in/kashif-sulehria-9436b3257/',
     linkedinUrl: '#',
     insta:false,
     linkedin:true,
