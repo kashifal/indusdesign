@@ -23,8 +23,8 @@ const people = [
     link:''
   },
   {
-    name: 'Kashif S.',
-    role: 'Founder',
+    name: 'Kashif Sulehria',
+    role: 'Founder here and @ makemecoder',
     imageUrl: '/images/kashee.jpg',
     twitterUrl: 'https://www.linkedin.com/in/kashif-sulehria-9436b3257/',
     linkedinUrl: '#',
@@ -33,14 +33,14 @@ const people = [
     link:'https://www.linkedin.com/in/ikashif-sulehria-9436b3257/'
   },
   {
-    name: 'Qamar M.',
-    role: 'Business Dev.',
-    imageUrl: '/images/qamar.jpeg',
-    twitterUrl: 'https://www.github.com/qamarmushtaq',
+    name: 'Zubair K.',
+    role: 'Laravel Dev.',
+    imageUrl: '/images/fatima.jpg',
+    twitterUrl: 'https://www.linkedin.com/in/zubair-asif-a90937184/',
     linkedinUrl: '#',
     insta:false,
     linkedin:false,
-    link:'https://www.instagram.com/fullplateofgraphics/'
+    link:'https://www.linkedin.com/in/zubair-asif-a90937184/'
   },
   {
     name: 'Shaheer I.',
