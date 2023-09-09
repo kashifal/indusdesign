@@ -30,17 +30,17 @@ const people = [
     linkedinUrl: '#',
     insta:false,
     linkedin:true,
-    link:'https://www.linkedin.com/in/ikashif-sulehria-9436b3257/'
+    link:'https://www.linkedin.com/in/kashif-sulehria-9436b3257/'
   },
   {
-    name: 'Zubair K.',
-    role: 'Laravel Dev.',
-    imageUrl: '/images/fatima.jpg',
+    name: 'Saifullah',
+    role: 'React Native Dev.',
+    imageUrl: 'https://pps.whatsapp.net/v/t61.24694-24/324784428_814723617003148_6196854740863582972_n.jpg?ccb=11-4&oh=01_AdSVnFaqn0KWSXzgzp2u_2x6bwqhCzaK9STIcwkTbAqjVQ&oe=65091E2A&_nc_sid=000000&_nc_cat=108',
     twitterUrl: 'https://www.linkedin.com/in/zubair-asif-a90937184/',
     linkedinUrl: '#',
     insta:false,
     linkedin:false,
-    link:'https://www.linkedin.com/in/zubair-asif-a90937184/'
+    link:'#'
   },
   {
     name: 'Shaheer I.',
