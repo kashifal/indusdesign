@@ -11,7 +11,7 @@ const plans = [
   {
     name: 'Starter / PSD to HTML',
     featured: false,
-    price: { Monthly: '$100', Annually: '$1000' },
+    price: { Monthly: '$400', Annually: '$4,000' },
     description:
       'You want hire 1 developer on monthly basis or Yearly, We got plan for you.',
     button: {
@@ -29,7 +29,7 @@ const plans = [
   {
     name: 'Vue.js / Nuxt Developer',
     featured: false,
-    price: { Monthly: '$300', Annually: '$1,800' },
+    price: { Monthly: '$600', Annually: '$6,000' },
     description:
       'You want hire 1 Vue.js / Nuxt / Tailwind developer on monthly basis or Yearly, We got plan for you.',
     button: {
@@ -48,7 +48,7 @@ const plans = [
   {
     name: 'React / Next Developer',
     featured: true,
-    price: { Monthly: '$400', Annually: '$2,400' },
+    price: { Monthly: '$700', Annually: '$7,000' },
     description:
       'You’ve got a huge amount of assets but it’s not enough. To the moon.',
     button: {

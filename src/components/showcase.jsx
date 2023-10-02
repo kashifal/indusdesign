@@ -14,11 +14,11 @@ function Showcase() {
   const projects = [
     {
       id: 1,
-      name: 'Wealthfront',
+      name: 'Kindship',
       category: 'reactjs',
       image:
         'https://tailwindcss.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.f3e20d55.png&w=1920&q=90',
-      link: '/',
+      link: 'https://kindship-ui.vercel.app/',
     },
     {
       id: 2,
