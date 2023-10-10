@@ -156,7 +156,7 @@ function Services() {
               used for the past six years.
             </ListItem>
             <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
+              At Indusappps we understand the importance of having a robust and
               customised CMS. That’s why we run all of our client projects out
               of a single, enormous Joomla instance.
             </ListItem>
@@ -180,12 +180,10 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Award-winning development studio based in Denmark.
+          Code with Precision, Design with Passion.
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a development studio working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+          At <b className='underline'>indusappps</b> , we are dedicated to transforming your ideas into exceptional digital experiences. As a premier web agency specializing in Vue.js, React.js, Tailwind CSS, and React Native, we bring your visions to life by seamlessly blending creativity and cutting-edge technology.
           </p>
         </FadeIn>
       </Container>
@@ -198,7 +196,7 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: logoPhobiaDark }}
       >
-        The team at Studio went above and beyond with our onboarding, even
+        The team at Indusappps went above and beyond with our onboarding, even
         finding a way to access the user’s microphone without triggering one of
         those annoying permission dialogs.
       </Testimonial>

@@ -57,15 +57,15 @@ function Culture() {
 
 const team = [
   {
-    title: 'Leadership',
+    title: 'We / Team',
     people: [
       {
-        name: 'Leslie Alexander',
-        role: 'Co-Founder / CEO',
+        name: 'Kashif Sulehria',
+        role: 'Co-Founder ',
         image: { src: imageLeslieAlexander },
       },
       {
-        name: 'Michael Foster',
+        name: '',
         role: 'Co-Founder / CTO',
         image: { src: imageMichaelFoster },
       },
@@ -76,56 +76,7 @@ const team = [
       },
     ],
   },
-  {
-    title: 'Team',
-    people: [
-      {
-        name: 'Chelsea Hagon',
-        role: 'Senior Developer',
-        image: { src: imageChelseaHagon },
-      },
-      {
-        name: 'Emma Dorsey',
-        role: 'Senior Designer',
-        image: { src: imageEmmaDorsey },
-      },
-      {
-        name: 'Leonard Krasner',
-        role: 'VP, User Experience',
-        image: { src: imageLeonardKrasner },
-      },
-      {
-        name: 'Blake Reid',
-        role: 'Junior Copywriter',
-        image: { src: imageBlakeReid },
-      },
-      {
-        name: 'Kathryn Murphy',
-        role: 'VP, Human Resources',
-        image: { src: imageKathrynMurphy },
-      },
-      {
-        name: 'Whitney Francis',
-        role: 'Content Specialist',
-        image: { src: imageWhitneyFrancis },
-      },
-      {
-        name: 'Jeffrey Webb',
-        role: 'Account Coordinator',
-        image: { src: imageJeffreyWebb },
-      },
-      {
-        name: 'Benjamin Russel',
-        role: 'Senior Developer',
-        image: { src: imageBenjaminRussel },
-      },
-      {
-        name: 'Angela Fisher',
-        role: 'Front-end Developer',
-        image: { src: imageAngelaFisher },
-      },
-    ],
-  },
+   
 ]
 
 function Team() {
@@ -195,17 +146,9 @@ export default async function About() {
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+          Indusappps was founded by three friends who observed that many IT companies were charging clients triple the standard rates. Since our inception, we have been dedicated to a different approach - charging less while delivering more value. We pride ourselves on offering cost-effective solutions without compromising on quality, making us the go-to choice for businesses looking to maximize their investments in technology.
           </p>
-          <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
-          </p>
+          
         </div>
       </PageIntro>
       <Container className="mt-16">
